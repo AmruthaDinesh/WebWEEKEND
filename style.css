@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+}
+
+
+.time-table
+{
+    
+    
+    font-family: 'Roboto', sans-serif;
+    
+    
+    display: flex;
+      
+
+}
+.time
+{
+width: 50%;;
+
+}
+.place
+{
+    width: 25%;
+}
+.text
+{
+    width: 25%;
+   text-shadow: .5px .5px 1px black, 0 0 1em greenyellow, 0 0 0.2em black;
+  
+}
+
+ .time-table h1,.time-table h2
+ {
+     color: #b2d430;
+     text-align: center;
+     font-size:1.5rem;
+ }
+
+ #Day
+ {
+     
+     border-style: none;
+     background-color: #000000;
+     color:  #a7d129;
+     opacity: 0.8;
+     font-size: 0.5rem;
+     width: 15%;
+     padding: 1rem;
+     
+ }
+  a
+ {
+     text-decoration: none;
+     text-size-adjust: 0.5rem;
+     color: #fafafa ;
+     opacity: 0.5;
+ }
+ a:hover
+ {
+     transform: scale(1.1);
+     opacity: 1;
+ }
+ .days
+ {
+     display: flex;
+     justify-content: space-around;
+ }
+ hr
+ {
+color: #900c3f ;
+ }
