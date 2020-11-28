@@ -48,7 +48,7 @@ width: 50%;;
      color:  #a7d129;
      opacity: 0.8;
      font-size: 0.5rem;
-     width: 15%;
+     /*width: 15%;*/
      padding: 1rem;
      
  }
@@ -66,10 +66,11 @@ width: 50%;;
  }
  .days
  {
-     display: flex;
+    
      justify-content: space-around;
  }
- hr
- {
-color: #900c3f ;
- }
+ h6{
+    color:  #626360;
+    text-align: center; 
+}
+ 

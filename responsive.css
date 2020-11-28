@@ -1,4 +1,48 @@
-@media all and (max-width: 1000px) 
+
+@media all and (orientation:portrait)
+{
+    
+    .time-table
+    {
+        
+        
+        font-family: 'Montserrat', sans-serif;
+        
+
+    }    
+    .text
+    {
+        width: 25%;
+    }
+
+    .time
+{
+width: 50%;
+
+}
+.place
+{
+    width: 25%;
+}
+.place-n-time
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.days
+{
+   margin: .5rem;
+    justify-content: space-around;
+}
+
+
+}
+
+@media all and (orientation:landscape) 
 {
     .time-table
     {
@@ -11,31 +55,14 @@
           
     
     }
-
-}
-
-@media all and (max-width: 670px)
-{
-    
-    .time-table
+    .days
     {
-        
-        
-        font-family: 'Montserrat', sans-serif;
-
-    }    
-    .text
-    {
-        width: 100%;
+       display: flex;
+        justify-content: space-around;
     }
+    #Day
+    {
+        width: 15%;
 
-    .time
-{
-width: 100%;;
-
-}
-.place
-{
-    width: 100%;
 }
 }
